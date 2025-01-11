@@ -6,7 +6,7 @@ import 'package:icons_plus/icons_plus.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-
+  
 void main() 
 {
   runApp(const MyApp());
@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget
           colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 0, 0, 0)),
         ),
         home: const MyHomePage(),
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
