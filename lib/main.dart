@@ -641,7 +641,7 @@ class _CurrencyExchangeState extends State<CurrencyExchange> {
   }*/
 
   @override
-  Widget build(BuildContext context) { //this is the start of a functiom
+  Widget build(BuildContext context) { //this is the start of a function
       return LayoutBuilder(
         builder: (context,constraints) {
           final isWideScreen = constraints.maxWidth > 765;
